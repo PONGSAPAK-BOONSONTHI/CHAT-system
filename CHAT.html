@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT</title>
+    <link rel="stylesheet" href="CHAT.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+</head>
+<body style="padding:  20px;">
+
+    <div class="container">
+        <h1>โหมดกลางวัน</h1>
+        <i class="bi bi-brightness-high-fill"></i>    
+    </div>
+    <div class="chat">
+        <div class="user">
+            <img class="img_user" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNBsMY47ex_V6H5zJurmjWNBrLhNvUJzcjOhePZyvCzCk9zsO2BS1tYlM1u5MAIKsUMmc&usqp=CAU.png">
+            <h4 id="showUserName"></h4>
+            <h4 id="time">เวลาปัจจุบัน</h4>
+        </div>
+        
+        <div id="render" class="renderchat"></div>
+
+        <div class="sendMSG">
+            <input id="txtMsg" class="forn-coutrol" placeholder="Message..." type="text">
+            <button id="btnSend" class="bin-primary" type="button">Send</button>
+        </div>  
+    </div>
+    <a href="CHAT.html" target="_blank">CHAT</a>
+    <a href="https://console.firebase.google.com/u/0/project/chat-ae5fd/database/chat-ae5fd-default-rtdb/data" target="_blank">Server CHAT</a>
+    <script type="module" src="CHAT.js"></script>
+</body>
+</html>
